@@ -29,7 +29,7 @@ const ContactUs = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("https://dev-to-stage-backend.herokuapp.com/", {
+    let response = await fetch("https://dev-to-stage-backend.herokuapp.com/api", {
       method: "POST",
       mode: 'cors',
       headers: {
