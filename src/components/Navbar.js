@@ -7,6 +7,7 @@ import {
 	NavBtn,
 	NavBtnLink,
 	NavPic,
+	NavLogo,
 } from './NavbarElements'
 import {Link} from 'react-router-dom'
 import {useState} from 'react'
@@ -29,19 +30,16 @@ function Navbar() {
 	}
 
 	return (
-		<nav className='navbar'>
-			<Link exact to='/' className = 'navbar-logo' onClick={closeMobileMenu}>
-				<blockquote class="imgur-embed-pub" lang="en" data-id="Te0vhdx" data-context="false" >
-				<a href="//imgur.com/Te0vhdx"></a>PICTURESS</blockquote>
-				<script async src="//s.imgur.com/min/embed.js" charset="utf-8">
-				</script>
-			</Link>
+		<Nav>
+			<NavLogo exact to='/' onClick={closeMobileMenu}>
+			<img src = 'https://images2.imgbox.com/1c/08/X8WIO2Ht_o.png' alt='logo' />
+			</NavLogo>
 		<div className = 'menu-icon' onClick = {handleClick} >
 			<i className = {click ? 'fas fa-times' : 'fas fa-bars'}/>
 		</div>
 		<ul className = {click ? 'nav-menu active' : 'nav-menu'}>
 			<li className = 'nav-item'>
-				<NavLink exact to='/'
+				<NavLink className = "nav-links" exact to='/'
 				onClick = {closeMobileMenu}>
 					Home
 				</NavLink>
@@ -50,23 +48,22 @@ function Navbar() {
 			<li className = 'nav-item'
 				onMouseEnter={onMouseEnter}
 				onMouseLeave={onMouseLeave}>
-				<NavLink
+				<NavLink className = "nav-links"
 				to = '/services'
 				onClick = {closeMobileMenu}
 				>
-					Tile & Stone Services <i className = 'fas fa-caret-down'/>
+					Services
 				</NavLink>
-				{dropdown && <Dropdown/>}
 			</li>
 			<NavPic src = 'https://images2.imgbox.com/1c/08/X8WIO2Ht_o.png' alt = 'Navbar pic' />
 			<li className = 'nav-item'>
-				<NavLink to = '/contact-us'
+				<NavLink className = "nav-links" to = '/contact-us'
 				onClick = {closeMobileMenu} >
 					Contact Us
 				</NavLink>
 			</li>
 		</ul>
-		</nav>
+		</Nav>
 	)
 }
 

@@ -6,10 +6,19 @@ import {Image,
         Break,
         Form,
         Body,
-        FloatContainer,
         Input,
+        BorderHeader,
+        TextAreaInput,
+        InputContainer,
+        AddressInput,
+        SmallInput,
+        Submit,
+        Container,
       }
 from './ContactUsStyle'
+import {Map} from './pgComponents/Map'
+import ContactInfo from './pgComponents/ContactInfo'
+
 const ContactUs = () => {
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
@@ -51,43 +60,34 @@ const ContactUs = () => {
     </ImageStyle>
     <Body>
     <Hype>
-    We are here to service you. Have questions, ideas, or need an estimate? Call us within business hours or email/message us at anytime!
-    <Break/> Schedule <Break/> Monday-Friday: 8:00am - 9:00pm Saturday-Sunday: 9:00am - 3:00pm
+    We are here to service you. Have questions, ideas, or need an estimate? Call us within business hours or email/message us at tshendevelopment@gmail.com!
+    <BorderHeader> Schedule </BorderHeader> Monday-Friday: 8:00am - 9:00pm <br/> Saturday-Sunday: 9:00am - 3:00pm
     </Hype>
     <Form onSubmit={handleSubmit}>
-      <FloatContainer>
-        <label htmlFor="firstName">First Name:</label>
-        <Input type="text" id="firstName" placeholder = 'first name' required />
+        <InputContainer>
 
-        <label htmlFor="lastName">Last Name:</label>
-        <Input type="text" id="lastName" placeholder = 'last name' defaultrequired />
-      </FloatContainer>
-      <div>
-        <label htmlFor="email">Email:</label>
+            <Input type="text" id="firstName" placeholder = 'first name' required />
+
+            <Input type="text" id="lastName" placeholder = 'last name' defaultrequired />
+
+        </InputContainer>
+        <InputContainer>
         <Input type="email" id="email" placeholder = 'email address' required />
-      <div>
-        <label htmlFor="phone">Phone no.:</label>
-        <Input type="tel" id="phone" placeholder = '1-234-567-8901' pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" />
-      </div>
-      </div>
-      <div>
-        <label htmlFor="address">Address:</label>
-        <Input type="text" placeholder = 'address' id="address"/>
-      </div>
-      <div>
-        <label htmlFor="city">City:</label>
-        <Input type="text" id="city" placeholder = 'City'/>
-        <label htmlFor="state">State:</label>
-        <Input type="text" id="state" placeholder = 'State'/>
-        <label htmlFor="zip">Zip:</label>
-        <Input type="text" id="zip" placeholder = 'Zip'/>
-      </div>
-      <div>
-        <label htmlFor="message">Questions/Comments:</label>
-        <textarea id="message" placeholder = 'Questions/Comments' required />
-      </div>
-      <button type="submit">{status}</button>
+       <Input type="tel" id="phone" placeholder = 'Phone number ex: 1-234-567-8901' pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+        </InputContainer>
+        <AddressInput type="text" placeholder = 'address' id="address"/>
+      <InputContainer>
+        <SmallInput type="text" id="city" placeholder = 'City'/>
+        <SmallInput type="text" id="state" placeholder = 'State'/>
+        <SmallInput type="text" id="zip" placeholder = 'Zip'/>
+      </InputContainer>
+      <TextAreaInput id="message" placeholder = 'Questions/Comments' required />
+      <Submit type="submit">{status}</Submit>
     </Form>
+    <Container>
+      <ContactInfo></ContactInfo>
+      <Map></Map>
+    </Container>
     </Body>
     </body>
   );
