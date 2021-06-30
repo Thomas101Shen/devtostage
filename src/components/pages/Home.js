@@ -27,8 +27,8 @@ export default function Home() {
 
 		<Body>
 			<HeaderContainer>
-			<Header>Bedrock Stone <Hr/> and Tile</Header>
 			<Rectangle></Rectangle>
+			<Header>Bedrock Stone <Hr/> and Tile</Header>
 			<ImgStyle1 src = 'https://images2.imgbox.com/00/05/5jEkOs2I_o.png' alt="picture"/>
 			</HeaderContainer>
 			<Intro>

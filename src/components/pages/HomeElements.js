@@ -7,7 +7,7 @@ export const ImgStyle1 = styled.img`
 
 export const Rectangle = styled.div`
 	position: absolute;
-	z-index: 10;
+	// z-index: 10;
 	align-self: center;
 	margin-top: 5vh;
 	height: 296px;
@@ -16,7 +16,7 @@ export const Rectangle = styled.div`
 `
 export const Header = styled.h1`
 position: absolute;
-z-index: 11;
+// z-index: 11;
 align-self: center;
 text-align: center;
 font-family: Oleo Script;
