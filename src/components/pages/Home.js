@@ -1,6 +1,3 @@
-import '../../App.css'
-import img1 from '../../images/quality_service'
-import img2 from '../../images/customer_experience'
 import {
 	TextStyle,
 	Intro,

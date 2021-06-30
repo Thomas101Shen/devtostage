@@ -12,7 +12,6 @@ import {
 import {Link} from 'react-router-dom'
 import {useState} from 'react'
 import  './Navbar.css';
-import Dropdown from './Dropdown'
 
 function Navbar() {
 
