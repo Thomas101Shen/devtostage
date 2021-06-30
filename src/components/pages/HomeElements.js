@@ -13,6 +13,9 @@ export const Rectangle = styled.div`
 	height: 296px;
 	width: 72%;
 	background: rgba(63, 23, 47, 0.72);
+	@media screen and (max-width 480px){
+		display:none;
+	}
 `
 export const Header = styled.h1`
 position: absolute;
@@ -26,6 +29,9 @@ font-size: 96px;
 line-height: 133px;
 
 color: #FFFFFF;
+	@media screen and (max-width 480px){
+		font-size: 24px;
+	}
 `
 export const Hr = styled.hr`
 border: transparent;
