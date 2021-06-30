@@ -2,6 +2,7 @@ import {useState} from 'react'
 import React from 'react'
 import Items from './demoPictures'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+
 import './ImageSlider.css'
 import { Image,
 		Slider,

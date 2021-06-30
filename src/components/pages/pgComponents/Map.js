@@ -26,7 +26,7 @@ export const Map = React.memo(function Map() {
     <Marker latitude = {lat}
     longitude = {long}>
       <Button onClick = {showDisplay}>
-        <Image src="http://assets.stickpng.com/thumbs/5888925dbc2fc2ef3a1860ad.png" alt="map marker"/>
+        <Image src="https://cdn.pixabay.com/photo/2014/04/03/10/03/google-309740_960_720.png" alt="map marker"/>
       </Button>
     </Marker>
     {labelDisplay && (

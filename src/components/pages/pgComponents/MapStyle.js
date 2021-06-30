@@ -8,5 +8,5 @@ export const Button = styled.button`
 
 export const Image = styled.img`
 	width: 20px;
-	height: 20px
+	height: 30px
 `

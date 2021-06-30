@@ -2,16 +2,16 @@ import styled from 'styled-components'
 
 export const Slider = styled.section`
   position: relative;
-  height: 100vh;
+  /*height: 10vh;*/
   display: flex;
   justify-content: center;
   align-items: center;
 `
 
 export const Image = styled.img`
-	  width: 1000px;
-	  height: 600px;
-    border-radius: 10px;
+    width: 48px;
+    height: 30px;
+    border-radius: 1px;
 `
 
 export const SliderKey = styled.div`
