@@ -5,20 +5,15 @@ position: relative;
 width: 100%;
 height: 581px;
 left: 0px;
-// top: 169px;
 z-index: -1;
-// background: rgba(177, 105, 105, 0.55);
 `
 export const ImageStyle = styled.div`
-// position: relative;
-// z-index = 999;
 display: flex;
 justify-content: center;
 align-items: center;
 width: 100%;
 height: 581px;
 left: 0px;
-// top: 169px;
 background: rgba(177, 105, 105, 0.55);
 text-align: center;
 `
@@ -203,7 +198,6 @@ export const Body = styled.div`
 display: flex;
 flex-direction: column;
 position: relative;
-// z-index:-999999;
 background: #FFC2A8;
 `
 

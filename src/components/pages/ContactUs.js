@@ -86,7 +86,6 @@ const ContactUs = () => {
     </Form>
     <Container>
       <ContactInfo></ContactInfo>
-      <Map></Map>
     </Container>
     </Body>
     </body>

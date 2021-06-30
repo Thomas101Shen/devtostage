@@ -1,15 +1,10 @@
 * {
-  font-family: 'PT Sans', sans-serif;
+  font-family: Open Sans;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
  }
 
- .header {
-  background: linear-gradient(90deg, rgb(79, 76, 168) 0%, rgb(26, 23, 23) 100%);
-  color: #fff;
-
- }
 
  .HomeParagraph {
     display:  block;

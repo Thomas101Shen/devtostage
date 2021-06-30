@@ -8,10 +8,12 @@ import Regrout from './components/pages/Regrout'
 import Repair from './components/pages/Repair'
 import Restoration from './components/pages/Restoration'
 import ContactUs from './components/pages/ContactUs'
+import Footer from './components/footer'
 import React from 'react'
 
 function App() {
   return (
+    <body>
     <Router>
       <Navbar />
         <Switch>
@@ -37,6 +39,8 @@ function App() {
           <Route path = '/contact-us' exact component={ContactUs} />
         </Switch>
     </Router>
+    <Footer/>
+    </body>
   );
 }
 

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Body = styled.body`
-width: 50%;
+width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: space-between;

@@ -1,22 +1,34 @@
 import styled from 'styled-components'
 import '../../fonts.css'
 
-export const Intro1 = styled.div`
-    display: flex;
-    justify-content: space-between;
-`
-
 export const ImgStyle1 = styled.img`
 	width: 100%
 `
 
 export const Rectangle = styled.div`
 	position: absolute;
-	width: 1165px;
-	height: 552px;
-	top: 343px;
-	left: 225px;
+	z-index: 10;
+	align-self: center;
+	margin-top: 5vh;
+	height: 296px;
+	width: 72%;
 	background: rgba(63, 23, 47, 0.72);
+`
+export const Header = styled.h1`
+position: absolute;
+z-index: 11;
+align-self: center;
+text-align: center;
+font-family: Oleo Script;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 133px;
+
+color: #FFFFFF;
+`
+export const Hr = styled.hr`
+border: transparent;
 `
 
 export const HeaderContainer = styled.div`
@@ -25,30 +37,78 @@ export const HeaderContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 `
-export const TextStyle1 = styled.div`
-	height: 600px;
-	// font-family: 'Dancing Script', cursive;
-	font-size: 250px;						/*want to find way to align text and image without having to adjust sizes*/
+export const TextStyle = styled.div`
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 65px;
+	color: #000000;
 `
-export const Intro2 = styled.div`
+export const Scaler = styled.div`
+	color: transparent;
+	width: 25%
+`
+
+export const Intro = styled.div`
 	display: flex;
-	justify-content: space-between;
-	flex-direction: row-reverse;
+	align-items: center;
+	align-content: center;
+	flex-direction: row;
+	justify-content: space-around;
+	background: transparent;
+	width: 100%;
+	margin: 0px;
+	height: 80vh
+`
+export const Body = styled.body`
+	background: #FFC2A8;
+
+`
+export const ImgStyle = styled.img`
+	width: 50%;
 `
 
-export const ImgStyle2 = styled.img`
-	height:600px;
+export const AboutUsContainer = styled.div`
+    display:  flex;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.38);
+    height: 140vh;
+    flex-direction: column;
 `
 
-export const TextStyle2 = styled.div`
-	height: 600px;
-	// font-family: 'ZCOOL KuaiLe', cursive;
-	font-size: 175px;
-  	background: linear-gradient(90deg, rgb(179, 179, 134, 0.7) 0%, rgb(26, 23, 23, 0.5) 100%);
+export const AboutUsHeader = styled.h1`
+	font-family: Oleo Script;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 100px;
+	color: #000000;
+	text-align: center;
+	vertical-align: text-top;
 `
 
 export const Paragraph = styled.p`
-	/* background-image: url('../../images/pBackground'); background image not loading*/
-    display:  block;
-    padding:  15px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 65px;
+	text-align: center;
+	color: #000000;
+	margin-top: 0px;
+	width: 40%;
+	align-self: stretch;
+`
+export const ChildContainer = styled.div`
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+`
+
+export const TextContainer = styled.div`
+	margin: 10px;
 `
