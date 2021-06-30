@@ -16,7 +16,7 @@ export const Gallery = ({data}) => {
 			<div className = 'gallery'>
 				{data.map((item, index)=>{
 					return(
-						<div className="pics" key={index} onClick={() => {getImg(item.image); window.scrollTo({top:0, behavior:"smooth"});}}>
+						<div className="pics" key={index} onClick={() => {getImg(item.image); window.scrollTo({top:250, behavior:"smooth"});}}>
 							<img src={item.image} style={{width: '100%'}}/>
 						</div>
 						)})}
