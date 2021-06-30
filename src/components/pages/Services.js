@@ -16,7 +16,7 @@ const Services = () => {
 		<body>
 		 <ImageStyle>
 	    <Header>Services</Header>
-	    <Image  src="https://lh3.googleusercontent.com/n-GYa9hE5VaIj--8Jk3b5aWg8-0IRmd3xPywJHQZga83nasfNY-lbm8k2TLaDR_Nv4ukXOoDiNgvLRzPwTE99wCP-FHUruttRZNNXBG26KQhYcbnF2MOm19mdADvTEYK07uAGwJEu7HS7aCg9Fo6nus2wWmOydOGDK0r02tEtHbNWQY6HG06VvoYqx6R4h4x5ABHknCjvMkhY9UDi7EreezWHA1PlUe9KFk0z2wD_cZ4vNQEC1ob11vbpsKx4j2FAOoIiNaxk7ue3-WtCSOEdzIqtSV52HjMct7V3xbCXPebfaSgYndP-rw7Z-mDTqRy_YnYgXFs-p-Plb6DEHLagBUdxR7zfHTcliY0jcVA_YQaZlWTcorf4XFx8xqTTOwY2_khm_tbpM55Os1NZ2WRpGfmhW84QI560n3yz5veCU-mEfQaupJ8BoaXf-J6VGnfjrUnD_OZbBC7X3q4qaat0PEJhAAoFsRdOssUgbtF1H8FE1tASTtir1rbvm4YOmUV716LrN3xhXfroLIqsjO3pyd1hwzIUZ319PU7ZQYUhl0JbkqUMpyxZT8Ae0_htMMjELeSNCYttAjLjzWAllPwqs9MM1g7MyYAq5qScEiTLN0fu9ltka3HgY_OGZtJOANG_coi8RGpalS9Lq_72EFk9S3ifcglZG_Ati1y5fY9uNqGOPZAO0ovVHGJbAH51k1BtWGBqjww9DkgVEwleTP1wJtK6SfRZS7Lt3spRA5DsdcFBu_7OoBt20sWv2CzvgoRFy3nz2xIW2LT43E=w108-h72-no"
+	    <Image  src="https://lh3.googleusercontent.com/pw/AM-JKLXMsWXF9nEwfdP82C7nZhjN8FgaRYuzEg0FdqdE6QGsOUORvB7QOG7FxDQ4UXqfKUi4ZvU3V3BjgOe6odIlLsR6JGYNCzxy9VS8hpOW7Z2HoOBFew7_Ts0gJd9Mb5gIzGv22XQ7RM50mqw3RnUK26U=w2068-h1378-no?authuser=0"
 	    alt={"Header background"}/>
 	    </ImageStyle>
 	    <Body>

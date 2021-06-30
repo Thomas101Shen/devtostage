@@ -9,6 +9,7 @@ width: 100%;
 height: 581px;
 left: 0px;
 z-index: -1;
+object-fit: cover;
 `
 export const ImageStyle = styled.div`
 display: flex;
