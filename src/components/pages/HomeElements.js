@@ -55,6 +55,7 @@ export const AboutUsContainer = styled.div`
     background: rgba(255, 255, 255, 0.38);
     height: 140vh;
     flex-direction: column;
+    // overflow: scroll;
 `
 
 export const AboutUsHeader = styled.h1`
@@ -66,9 +67,13 @@ export const AboutUsHeader = styled.h1`
 	color: #000000;
 	text-align: center;
 	vertical-align: text-top;
+	margin: auto;
+	margin-top: 10px;
+	// overflow: scroll;
 `
 
 export const Paragraph = styled.p`
+	// display: flex;
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -76,15 +81,19 @@ export const Paragraph = styled.p`
 	line-height: 65px;
 	text-align: center;
 	color: #000000;
+	// margin: auto;
+	// padding: auto;
 	margin-top: 0px;
 	width: 40%;
 	align-self: stretch;
+	// flex-wrap: wrap;
 `
 export const ChildContainer = styled.div`
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
 	align-items: center;
+	overflow: scroll;
 `
 
 export const TextContainer = styled.div`

@@ -1,6 +1,5 @@
 import React from 'react'
 import Items from './pgComponents/demoPictures'
-import './Services.css'
 import {Image,
 		ImageStyle,
 		Header,
