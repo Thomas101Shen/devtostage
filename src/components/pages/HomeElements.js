@@ -57,8 +57,8 @@ export const AboutUsContainer = styled.div`
     justify-content: center;
     background: rgba(255, 255, 255, 0.38);
     height: 140vh;
+    width: 100%;
     flex-direction: column;
-    // overflow: scroll;
 `
 
 export const AboutUsHeader = styled.h1`
@@ -72,7 +72,6 @@ export const AboutUsHeader = styled.h1`
 	vertical-align: text-top;
 	margin: auto;
 	margin-top: 10px;
-	// overflow: scroll;
 `
 
 export const Paragraph = styled.p`
@@ -95,7 +94,6 @@ export const ChildContainer = styled.div`
 	justify-content: space-around;
 	align-content: center;
 	align-items: center;
-	overflow: scroll;
 `
 
 export const TextContainer = styled.div`

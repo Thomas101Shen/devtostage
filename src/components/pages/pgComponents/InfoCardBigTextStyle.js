@@ -33,7 +33,6 @@ export const Header = styled.h3`
 	font-style: normal;
 	font-weight: 600;
 	font-size: 36px;
-	overflow: scroll;
 	text-align: center;
 	line-height: 65px;
 	margin-left: 5px;
