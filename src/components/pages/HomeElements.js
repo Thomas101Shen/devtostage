@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import '../../fonts.css'
+import Carousel from './pgComponents/Carousel'
+
 
 export const ImgStyle1 = styled.img`
 	width: 100%;
@@ -86,7 +88,6 @@ export const Paragraph = styled.p`
 	margin-top: 0px;
 	width: 40%;
 	align-self: stretch;
-	// flex-wrap: wrap;
 `
 export const ChildContainer = styled.div`
 	display: flex;
@@ -98,4 +99,21 @@ export const ChildContainer = styled.div`
 
 export const TextContainer = styled.div`
 	margin: 10px;
+`
+
+export const Slider = styled(Carousel)`
+	@media screen and (max width: 750px){
+        width: 50vh;
+        height: 50vh;
+        // display: none;
+	}
+`
+
+export const SliderText = styled.p`
+	display: none;
+	@media screen and (max-width: 420px){
+		font-family: Open Sans;
+		border: 5px solid rgba(207, 85, 85, 0.33);
+		display: inline-block;
+	}
 `

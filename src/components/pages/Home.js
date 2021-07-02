@@ -12,8 +12,9 @@ import {
 	AboutUsHeader,
 	TextContainer,
 	ChildContainer,
+	Slider,
+	SliderText,
 } from './HomeElements'
-import Carousel from './pgComponents/Carousel'
 import Images from './pgComponents/demoPictures'
 import React from 'react'
 
@@ -48,7 +49,8 @@ export default function Home() {
 					sed do eiusmod tempor incididunt ut 
 					labore et dolore magna aliqua. Ut 
 					</Paragraph>
-					<Carousel/>
+					<Slider/>
+					<SliderText>Enlargen screen to view slider</SliderText>
 				</ChildContainer>
 			</AboutUsContainer>
 		</Body>

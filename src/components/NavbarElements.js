@@ -65,7 +65,7 @@ export const NavPic = styled.img`
 height: 36px;
 margin: auto;
 
-	@media screen and (max-width: 980px){
+	@media screen and (max-width: 800px){
 		display: none;
 	}
 `
