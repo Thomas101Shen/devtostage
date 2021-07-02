@@ -3,9 +3,7 @@ import {
 	Intro,
 	ImgStyle,
 	ImgStyle1,
-	Rectangle,
 	HeaderContainer,
-	Header,
 	Hr,
 	Scaler,
 	Body,
@@ -24,9 +22,8 @@ export default function Home() {
 
 		<Body>
 			<HeaderContainer>
-			<Rectangle></Rectangle>
-			<Header>Bedrock Stone <Hr/> and Tile</Header>
-			<ImgStyle1 src = 'https://images2.imgbox.com/00/05/5jEkOs2I_o.png' alt="picture"/>
+			<ImgStyle1 src = 'https://lh3.googleusercontent.com/pw/AM-JKLWgsscqWXQ74hyP-WOysHNPcX0sdC8Xy_wM6LuQnQTWOCk4JAliV9vW-rdfk8d5sQ36WeJY3bHCtgbtbCE4bku3LExC2FRLNuFCF3QrX-cvpmDVRbXwEwSAiJShOVToL9mKNpqRngJUTkcbwsflkhk=w1770-h1138-no?'
+			alt="picture"/>
 			</HeaderContainer>
 			<Intro>
 				<Scaler>lorem ipsum</Scaler>

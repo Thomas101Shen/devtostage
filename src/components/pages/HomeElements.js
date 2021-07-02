@@ -2,37 +2,9 @@ import styled from 'styled-components'
 import '../../fonts.css'
 
 export const ImgStyle1 = styled.img`
-	width: 100%
+	width: 100%;
 `
 
-export const Rectangle = styled.div`
-	position: absolute;
-	// z-index: 10;
-	align-self: center;
-	margin-top: 5vh;
-	height: 296px;
-	width: 72%;
-	background: rgba(63, 23, 47, 0.72);
-	@media screen and (max-width 480px){
-		display:none;
-	}
-`
-export const Header = styled.h1`
-position: absolute;
-// z-index: 11;
-align-self: center;
-text-align: center;
-font-family: Oleo Script;
-font-style: normal;
-font-weight: normal;
-font-size: 96px;
-line-height: 133px;
-
-color: #FFFFFF;
-	@media screen and (max-width 480px){
-		font-size: 24px;
-	}
-`
 export const Hr = styled.hr`
 border: transparent;
 `

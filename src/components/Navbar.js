@@ -43,7 +43,7 @@ function Navbar() {
 					Home
 				</NavLink>
 			</li>
-			<NavPic src = 'https://images2.imgbox.com/1c/08/X8WIO2Ht_o.png' alt = 'Navbar pic' />
+			<NavPic src = 'https://images2.imgbox.com/1c/08/X8WIO2Ht_o.png' alt = 'Navbar pic'/>
 			<li className = 'nav-item'
 				onMouseEnter={onMouseEnter}
 				onMouseLeave={onMouseLeave}>
