@@ -24,7 +24,7 @@ export const TextStyle = styled.div`
 	font-size: 48px;
 	line-height: 65px;
 	color: #000000;
-	overflow: scroll;
+	background: transparent;
 `
 export const Scaler = styled.div`
 	color: transparent;
