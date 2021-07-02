@@ -35,7 +35,7 @@ export const NavLink = styled(Link)`
 	background-color: transparent;
 	transition: background-color 2s;
 	font-family: Oleo Script, cursive;
-	font-size: 48px;
+	font-size: 24px;
 
 	:hover {
 		background-color: #CF5555;
@@ -43,7 +43,7 @@ export const NavLink = styled(Link)`
 		border-radius: 4px;
 		padding: 8px 20px;
 		border-radius: 12px;
-		font-size: 48px;
+		font-size: 36px;
 		color: #fff;
 		cursor: pointer;
 		height: 60px;
@@ -51,6 +51,7 @@ export const NavLink = styled(Link)`
 	}
 	&.active{
 	background: #CF5555;
+	font-size: 36px;
 	padding: 8px 20px;
 	border-radius: 12px;
 	outline: none;
@@ -61,11 +62,8 @@ export const NavLink = styled(Link)`
 }
 `
 export const NavPic = styled.img`
-// position: absolute;
-left: 47.42%;
-right: 48.12%;
-top: 33.14%;
-bottom: 28.99%;
+height: 36px;
+margin: auto;
 
 	@media screen and (max-width: 980px){
 		display: none;

@@ -51,6 +51,7 @@ font-size: 48px;
 line-height: 65px;
 text-align: center;
 color: #000000;
+padding: 10vh;
 `
 
 export const Form = styled.form`

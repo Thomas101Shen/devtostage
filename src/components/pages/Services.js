@@ -9,6 +9,7 @@ import {Image,
 		InfoCardDiv,
 } from './ServiceStyle'
 import InfoCard from './pgComponents/InfoCard'
+import InfoCardBigText from './pgComponents/InfoCardBigText'
 import {Link} from 'react-router-dom'
 
 const Services = () => {
@@ -24,7 +25,7 @@ const Services = () => {
 			</Hype>
 			<InfoCardDiv>
 				<Link to="./Installation">
-					<InfoCard image = "https://thumbs2.imgbox.com/67/52/6wNXz3ex_t.png"
+					<InfoCardBigText image = "https://thumbs2.imgbox.com/67/52/6wNXz3ex_t.png"
 					header = "Installation"/>
 				</Link>
 				<Link to="./Regrout">
@@ -36,7 +37,7 @@ const Services = () => {
 					header = "Repair"/>
 				</Link>
 				<Link to="./Restoration">
-					<InfoCard image = "https://thumbs2.imgbox.com/34/30/1hhKgvS1_t.png"
+					<InfoCardBigText image = "https://thumbs2.imgbox.com/34/30/1hhKgvS1_t.png"
 					header = "Restoration"/>
 				</Link>
 			</InfoCardDiv>
