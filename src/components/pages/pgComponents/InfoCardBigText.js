@@ -3,7 +3,7 @@ import {Image,
 		Body,
 		Header,
 		Text,
-}from './InfoCardStyle'
+}from './InfoCardBigTextStyle'
 
 const InfoCard = ({image, header, text}) => {
 	return(
