@@ -15,6 +15,7 @@ import {
 	Slider,
 	SliderText,
 } from './HomeElements'
+import './home.css'
 import Images from './pgComponents/demoPictures'
 import React from 'react'
 
@@ -30,13 +31,14 @@ export default function Home() {
 				<Scaler>lorem ipsum</Scaler>
 				<div>
 					<ImgStyle src="https://images2.imgbox.com/c7/d3/b39M9tOO_o.png" alt="Quality service pic"/>
-					<TextStyle>
+					<TextStyle id = 'text'>
 				Quality <br /> Services...</TextStyle>
 				</div>
 				<div>
 					<ImgStyle src ="https://images2.imgbox.com/b0/05/DIQ2dlCV_o.png" alt="customer experience pic"/>
-					<TextStyle>
-					...And great <br/> Customer <br/> Experience</TextStyle>
+					<TextStyle id = 'text'>
+					...And great <br/> Customer <br/> Experience
+					</TextStyle>
 				</div>
 			</Intro>
 
@@ -44,10 +46,10 @@ export default function Home() {
 				<AboutUsHeader>About Us</AboutUsHeader>
 				<ChildContainer>
 					<Paragraph>
-					Lorem ipsum dolor sit amet, 
-					consectetur adipiscing elit,  
-					sed do eiusmod tempor incididunt ut 
-					labore et dolore magna aliqua. Ut 
+					Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut
+					labore et dolore magna aliqua. Ut
 					</Paragraph>
 					<Slider/>
 					<SliderText>Enlargen screen to view slider</SliderText>
