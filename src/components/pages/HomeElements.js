@@ -57,7 +57,6 @@ export const AboutUsContainer = styled.div`
     justify-content: center;
     background: rgba(255, 255, 255, 0.38);
     height: 140vh;
-    width: 100%;
     flex-direction: column;
 `
 
@@ -71,8 +70,7 @@ export const AboutUsHeader = styled.h1`
 	text-align: center;
 	vertical-align: text-top;
 	margin: auto;
-	margin-top: 10px;
-`
+	margin-top: 10px;`
 
 export const Paragraph = styled.p`
 	// display: flex;
