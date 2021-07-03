@@ -3,9 +3,8 @@ import styled from 'styled-components'
 export const Image = styled.img`
 position: relative;
 width: 100%;
-height: 581px;
+height: auto;
 left: 0px;
-z-index: -1;
 `
 export const ImageStyle = styled.div`
 display: flex;
@@ -68,7 +67,7 @@ height: 124vh;
 export const InputContainer = styled.div`
     display: flex;
     justify-content: space-around;
-    width: 100%
+    width: 80%
 `
 
 export const Input = styled.input`

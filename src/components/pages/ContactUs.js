@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import {Image,
         Hype,
-        ImageStyle,
-        Header,
         Break,
         Form,
         Body,
@@ -53,12 +51,8 @@ const ContactUs = () => {
     alert(result.status);
   };
   return (
-    <body>
-    <ImageStyle>
-    <Header>Contact Us</Header>
-    <Image src="https://images2.imgbox.com/28/ca/J1TmjxwS_o.jpg" alt="Contact Us picture"/>
-    </ImageStyle>
     <Body>
+    <Image src='https://lh3.googleusercontent.com/pw/AM-JKLVq8CiU_5_BSTCWUR6dI6eXekYBbCV3zVBoYjs4Tt78-IxiyANfvDkFRXxCoksJ88-YUXGmIk94EvkhoQbEkvaqZdtMGYyzBPULKYSQoCd0rfd5Om708mTbLZtopyAGHvhq6G7jPlKLQCRWkhoeGnY=w1896-h1264-no?' alt='header pic' />
     <Hype>
     We are here to service you. Have questions, ideas, or need an estimate? Call us within business hours or email/message us at tshendevelopment@gmail.com!
     <BorderHeader> Schedule </BorderHeader> Monday-Friday: 8:00am - 9:00pm <br/> Saturday-Sunday: 9:00am - 3:00pm
@@ -88,7 +82,7 @@ const ContactUs = () => {
       <ContactInfo></ContactInfo>
     </Container>
     </Body>
-    </body>
+    // </body>
   );
 };
 

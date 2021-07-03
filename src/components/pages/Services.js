@@ -1,8 +1,6 @@
 import React from 'react'
 import Items from './pgComponents/demoPictures'
 import {Image,
-		ImageStyle,
-		Header,
 		Hype,
 		Body,
 		InfoCardDiv,
@@ -13,13 +11,9 @@ import {Link} from 'react-router-dom'
 
 const Services = () => {
 	return (
-		<body>
-		 <ImageStyle>
-	    <Header>Services</Header>
-	    <Image  src="https://lh3.googleusercontent.com/pw/AM-JKLXMsWXF9nEwfdP82C7nZhjN8FgaRYuzEg0FdqdE6QGsOUORvB7QOG7FxDQ4UXqfKUi4ZvU3V3BjgOe6odIlLsR6JGYNCzxy9VS8hpOW7Z2HoOBFew7_Ts0gJd9Mb5gIzGv22XQ7RM50mqw3RnUK26U=w2068-h1378-no?authuser=0"
-	    alt={"Header background"}/>
-	    </ImageStyle>
+
 	    <Body>
+	 		<Image src='https://lh3.googleusercontent.com/pw/AM-JKLW0Ep9SWO9solY1pA-ueGrr7KpXsIGxXAsLelCOvTFHbKF4TIGjtqMk63Lv_2K6Uats6_mpO8SBtDI5mDL3uuudwJSAIfSHY-qwJPw88PyvecNhiX0n-MqC-rCaWhE6metSMnn7JJoQka35FQHqnXA=w1896-h1264-no?' alt='header pic'/>
 		    <Hype>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar, orci id bibendum varius, leo velit efficitur augue, non blandit arcu quam at velit.
 			</Hype>
 			<InfoCardDiv>
@@ -41,7 +35,7 @@ const Services = () => {
 				</Link>
 			</InfoCardDiv>
 		</Body>
-		</body>
+		// </body>
 	)
 }
 
