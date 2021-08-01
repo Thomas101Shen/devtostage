@@ -4,7 +4,6 @@ import {
 	ImgStyle,
 	ImgStyle1,
 	HeaderContainer,
-	Hr,
 	Scaler,
 	Body,
 	AboutUsContainer,
@@ -12,19 +11,18 @@ import {
 	AboutUsHeader,
 	TextContainer,
 	ChildContainer,
-	Slider,
-	SliderText,
 } from './HomeElements'
 import './home.css'
 import Images from './pgComponents/demoPictures'
 import React from 'react'
+import Carousel from './pgComponents/Carousel'
 
 export default function Home() {
 	return(
 
 		<Body>
 			<HeaderContainer>
-			<ImgStyle1 src = 'https://lh3.googleusercontent.com/pw/AM-JKLWgsscqWXQ74hyP-WOysHNPcX0sdC8Xy_wM6LuQnQTWOCk4JAliV9vW-rdfk8d5sQ36WeJY3bHCtgbtbCE4bku3LExC2FRLNuFCF3QrX-cvpmDVRbXwEwSAiJShOVToL9mKNpqRngJUTkcbwsflkhk=w1770-h1138-no?'
+			<ImgStyle1 src = 'https://lh3.googleusercontent.com/pw/AM-JKLWygvIMJ8RXyEUVBY1cHBuZNsQltThjOMLBKPz6YX7Rbty8frln9SvZfKbjxYJTJrHeYRDRbgMVpJEQsHJuN4ZFb15ek6IzTHrdXLE-V9-UOlchku1tbiKYY7QMiZv9Nejf08Tw9GBXfisad1eGgoI=w1720-h1106-no'
 			alt="picture"/>
 			</HeaderContainer>
 			<Intro>
@@ -51,8 +49,7 @@ export default function Home() {
 					sed do eiusmod tempor incididunt ut
 					labore et dolore magna aliqua. Ut
 					</Paragraph>
-					<Slider/>
-					<SliderText>Enlargen screen to view slider</SliderText>
+					<Carousel/>
 				</ChildContainer>
 			</AboutUsContainer>
 		</Body>

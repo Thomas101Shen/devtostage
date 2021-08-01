@@ -1,9 +1,0 @@
-export default function AboutUs() {
-	return(
-
-		<>
-			<h1 className='AboutUs'>About Us</h1>
-		</>
-
-		)
-}

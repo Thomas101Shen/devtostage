@@ -52,9 +52,9 @@ const ContactUs = () => {
   };
   return (
     <Body>
-    <Image src='https://lh3.googleusercontent.com/pw/AM-JKLVq8CiU_5_BSTCWUR6dI6eXekYBbCV3zVBoYjs4Tt78-IxiyANfvDkFRXxCoksJ88-YUXGmIk94EvkhoQbEkvaqZdtMGYyzBPULKYSQoCd0rfd5Om708mTbLZtopyAGHvhq6G7jPlKLQCRWkhoeGnY=w1896-h1264-no?' alt='header pic' />
+    <Image src='https://lh3.googleusercontent.com/pw/AM-JKLWc16H1F1NhiBziHAQpTwmq_HHI_yHlaUVJghk04W0YmF0exUfywSGenh49xB3l5wpOkIDMFeXnnUilRvw2ZoRHBgqRdN3-EhuMH8jWzyNeE6zT6HLoc60kFJlZmCi1o1j2wppvfzoj5Tf-yK2i97o=w1830-h1106-no' alt='header pic' />
     <Hype>
-    We are here to service you. Have questions, ideas, or need an estimate? Call us within business hours or email/message us at tshendevelopment@gmail.com!
+    We are here to service you. Have questions, ideas, or need an estimate? Call us within business hours or email/message us at email.com!
     <BorderHeader> Schedule </BorderHeader> Monday-Friday: 8:00am - 9:00pm <br/> Saturday-Sunday: 9:00am - 3:00pm
     </Hype>
     <Form onSubmit={handleSubmit}>

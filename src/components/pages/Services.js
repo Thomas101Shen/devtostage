@@ -13,7 +13,7 @@ const Services = () => {
 	return (
 
 	    <Body>
-	 		<Image src='https://lh3.googleusercontent.com/pw/AM-JKLW0Ep9SWO9solY1pA-ueGrr7KpXsIGxXAsLelCOvTFHbKF4TIGjtqMk63Lv_2K6Uats6_mpO8SBtDI5mDL3uuudwJSAIfSHY-qwJPw88PyvecNhiX0n-MqC-rCaWhE6metSMnn7JJoQka35FQHqnXA=w1896-h1264-no?' alt='header pic'/>
+	 		<Image src='https://lh3.googleusercontent.com/pw/AM-JKLWS0FEPH6ADYiBbt_yiJlwGx-HxzwgSl6xEYHnt0mUnzS5ND-aLnyzqKMTownlbZp7cHJzB632alDyhPQx9JTSuMkdctw-s3e5y_uxTWDeUB5PZceqfWapYO4icmiU0XlZ23eaKq857JTn2ae8ypN4=w1832-h1106-no' alt='header pic'/>
 		    <Hype>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar, orci id bibendum varius, leo velit efficitur augue, non blandit arcu quam at velit.
 			</Hype>
 			<InfoCardDiv>

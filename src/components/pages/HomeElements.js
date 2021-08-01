@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import '../../fonts.css'
-import Carousel from './pgComponents/Carousel'
+
 
 
 export const ImgStyle1 = styled.img`
@@ -25,6 +25,7 @@ export const TextStyle = styled.div`
 	line-height: 65px;
 	color: #000000;
 	background: transparent;
+	padding: auto;
 `
 export const Scaler = styled.div`
 	color: transparent;
@@ -70,10 +71,11 @@ export const AboutUsHeader = styled.h1`
 	text-align: center;
 	vertical-align: text-top;
 	margin: auto;
-	margin-top: 10px;`
+	margin-top: 0px;
+	margin-bottom: 10px;
+	`
 
 export const Paragraph = styled.p`
-	// display: flex;
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -81,36 +83,30 @@ export const Paragraph = styled.p`
 	line-height: 65px;
 	text-align: center;
 	color: #000000;
-	// margin: auto;
-	// padding: auto;
 	margin-top: 0px;
 	width: 40%;
 	align-self: stretch;
+
+	@media screen and (max-width: 650px){
+		font-size: 28px;
+	}
+	@media screen and (max-width: 420px){
+		font-size: 25px;
+		align-self: center;
+	}
 `
 export const ChildContainer = styled.div`
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
 	align-items: center;
+	
+	@media screen and (max-width: 420px){
+		flex-direction: column;
+	}
 `
 
 export const TextContainer = styled.div`
 	margin: 10px;
 `
 
-export const Slider = styled(Carousel)`
-	@media screen and (max width: 750px){
-        width: 50vh;
-        height: 50vh;
-        // display: none;
-	}
-`
-
-export const SliderText = styled.p`
-	display: none;
-	@media screen and (max-width: 420px){
-		font-family: Open Sans;
-		border: 5px solid rgba(207, 85, 85, 0.33);
-		display: inline-block;
-	}
-`
