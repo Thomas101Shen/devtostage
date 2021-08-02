@@ -1,4 +1,4 @@
-@media screen and (max-width:420px){
+@media screen and (max-width:490px){
 div #text{
 	font-size: 36px;
 
@@ -12,5 +12,10 @@ div #text{
 @media screen and (max-width:270px){
 div #text{
 	font-size: 16px;
+}
+}
+@media screen and (max-width:210px){
+div #text{
+	font-size: 10px;
 }
 }

@@ -13,9 +13,8 @@ border: transparent;
 
 export const HeaderContainer = styled.div`
 	display: flex;
-	// flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 `
 export const TextStyle = styled.div`
 	font-family: Open Sans;
@@ -26,6 +25,9 @@ export const TextStyle = styled.div`
 	color: #000000;
 	background: transparent;
 	padding: auto;
+	@media screen and (max-width: 280px){
+		line-height: 40px;
+	}
 `
 export const Scaler = styled.div`
 	color: transparent;
@@ -54,10 +56,10 @@ export const ImgStyle = styled.img`
 export const AboutUsContainer = styled.div`
     display:  flex;
     align-content: space-around;
-    align-items: center;
+    // align-items: center;
     justify-content: center;
     background: rgba(255, 255, 255, 0.38);
-    height: 140vh;
+    height: auto;
     flex-direction: column;
 `
 
