@@ -60,13 +60,13 @@ const ContactUs = () => {
     <Form onSubmit={handleSubmit}>
         <InputContainer>
 
-            <Input type="text" id="firstName" placeholder = 'first name' required />
+            <Input type="text" id="firstName*" placeholder = 'first name' required />
 
-            <Input type="text" id="lastName" placeholder = 'last name' defaultrequired />
+            <Input type="text" id="lastName*" placeholder = 'last name' defaultrequired />
 
         </InputContainer>
         <InputContainer>
-        <Input type="email" id="email" placeholder = 'email address' required />
+        <Input type="email" id="email" placeholder = 'email address*' required />
        <Input type="tel" id="phone" placeholder = 'Phone number ex: 1-234-567-8901' pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" />
         </InputContainer>
         <AddressInput type="text" placeholder = 'address' id="address"/>
@@ -75,7 +75,7 @@ const ContactUs = () => {
         <SmallInput type="text" id="state" placeholder = 'State'/>
         <SmallInput type="text" id="zip" placeholder = 'Zip'/>
       </InputContainer>
-      <TextAreaInput id="message" placeholder = 'Questions/Comments' required />
+      <TextAreaInput id="message" placeholder = 'Questions/Comments*' required />
       <Submit type="submit">{status}</Submit>
     </Form>
     <Container>

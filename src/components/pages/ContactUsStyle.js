@@ -35,6 +35,10 @@ font-family: Open Sans;
 font-weight: 600;
 padding: 10px;
 text-decoration: underline;
+@media screen and (max-width: 420px){
+    font-size: 32px;
+    align-self: center;
+}
 `
 
 export const Hype = styled.p`
@@ -51,6 +55,17 @@ line-height: 65px;
 text-align: center;
 color: #000000;
 padding: 10vh;
+@media screen and (max-width: 650px){
+        font-size: 25px;
+    }
+@media screen and (max-width: 420px){
+    font-size: 16px;
+    align-self: center;
+}
+@media screen and (max-width: 290px){
+    font-size: 14px;
+    display: inline-block;
+}
 `
 
 export const Form = styled.form`
@@ -60,8 +75,11 @@ justify-content: space-evenly;
 flex-direction: column;
 left: -1px;
 background: rgba(255, 255, 255, 0.38);
-border-radius: 180px 0px;
+border-radius: 180px 180px;
 height: 124vh;
+@media screen and (max-width: 290px){
+    border-radius: 90px 90px;
+}
 `
 
 export const InputContainer = styled.div`

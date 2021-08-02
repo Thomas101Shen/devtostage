@@ -1,4 +1,4 @@
-import {useState} from 'react'
+
 import {Gallery} from './pgComponents/Gallery'
 import React from 'react'
 import "./Repair.css"

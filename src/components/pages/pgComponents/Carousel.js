@@ -19,7 +19,7 @@ function Carousel() {
             currImg > 0 ? setCurrImg(currImg - 1) : setCurrImg(2);
           }}
         >
-          <ArrowBackIosIcon style={{ fontSize: 30 }} />
+          <ArrowBackIosIcon style={{ fontSize: 30 }}/>
         </div>
         <div className="center">
         </div>
@@ -29,7 +29,7 @@ function Carousel() {
             currImg < Items.length - 1 ? setCurrImg(currImg + 1) : setCurrImg(0);
           }}
         >
-          <ArrowForwardIosIcon style={{ fontSize: 30 }} />
+          <ArrowForwardIosIcon style={{ fontSize: 30 }}/>
         </div>
       </div>
     </section>

@@ -18,6 +18,17 @@ text-align: center;
 padding: 10px;
 
 color: #000000;
+@media screen and (max-width: 650px){
+        font-size: 25px;
+    }
+@media screen and (max-width: 420px){
+    font-size: 16px;
+    align-self: center;
+}
+@media screen and (max-width: 290px){
+    font-size: 14px;
+    display: inline-block;
+}
 `
 
 export const Hr = styled.hr`

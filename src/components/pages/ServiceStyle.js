@@ -1,15 +1,7 @@
 import styled from 'styled-components'
-import Regrout from './Regrout'
-
-
 
 export const Image = styled.img`
-position: relative;
 width: 100%;
-height: 581px;
-left: 0px;
-// z-index: -1;
-object-fit: cover;
 `
 export const ImageStyle = styled.div`
 display: flex;
@@ -47,7 +39,18 @@ font-size: 48px;
 line-height: 65px;
 text-align: center;
 color: #000000;
-margin: 100px;
+margin: auto;
+@media screen and (max-width: 650px){
+		font-size: 25px;
+	}
+	@media screen and (max-width: 420px){
+		font-size: 16px;
+		align-self: center;
+	}
+	@media screen and (max-width: 290px){
+		font-size: 14px;
+		display: inline-block;
+	}
 `
 export const Body = styled.div`
 display: flex;
@@ -59,7 +62,6 @@ background: #FFC2A8;
 export const InfoCardDiv = styled.div`
 display: flex;
 justify-content: space-around;
-margin: 20px;
-margin-bottom: 40px;
+margin: auto;
 flex-wrap: wrap;
 `

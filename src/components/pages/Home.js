@@ -41,9 +41,9 @@ export default function Home() {
 			</Intro>
 
 			<AboutUsContainer>
-				<AboutUsHeader>About Us</AboutUsHeader>
+				<AboutUsHeader className = 'header'>About Us</AboutUsHeader>
 				<ChildContainer>
-					<Paragraph>
+					<Paragraph className = 'intro_text'>
 					Lorem ipsum dolor sit amet,
 					consectetur adipiscing elit,
 					sed do eiusmod tempor incididunt ut

@@ -70,9 +70,13 @@ export const AboutUsHeader = styled.h1`
 	color: #000000;
 	text-align: center;
 	vertical-align: text-top;
-	margin: auto;
+	// margin: auto;
 	margin-top: 0px;
 	margin-bottom: 10px;
+	@media screen and (max-width: 307px){
+		font-size: 36px;
+		margin-bottom: 0px;
+	}
 	`
 
 export const Paragraph = styled.p`
@@ -88,11 +92,15 @@ export const Paragraph = styled.p`
 	align-self: stretch;
 
 	@media screen and (max-width: 650px){
-		font-size: 28px;
+		font-size: 25px;
 	}
 	@media screen and (max-width: 420px){
-		font-size: 25px;
+		font-size: 16px;
 		align-self: center;
+	}
+	@media screen and (max-width: 290px){
+		font-size: 14px;
+		display: inline-block;
 	}
 `
 export const ChildContainer = styled.div`

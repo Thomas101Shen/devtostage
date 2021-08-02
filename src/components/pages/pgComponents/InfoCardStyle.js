@@ -8,6 +8,7 @@ export const Body = styled.div`
 	border: 5px solid rgba(207, 85, 85, 0.33);
 	box-sizing: border-box;
 	border-radius: 20px;
+	margin-bottom: 5vh;
 	:hover {
 		background: rgba(255, 255, 255, 0.77);
 		border: 5px solid rgba(207, 85, 85);
