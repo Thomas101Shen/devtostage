@@ -14,7 +14,9 @@ const Services = () => {
 
 	    <Body>
 	 		<Image src='https://lh3.googleusercontent.com/pw/AM-JKLWS0FEPH6ADYiBbt_yiJlwGx-HxzwgSl6xEYHnt0mUnzS5ND-aLnyzqKMTownlbZp7cHJzB632alDyhPQx9JTSuMkdctw-s3e5y_uxTWDeUB5PZceqfWapYO4icmiU0XlZ23eaKq857JTn2ae8ypN4=w1832-h1106-no' alt='header pic'/>
-		    <Hype>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar, orci id bibendum varius, leo velit efficitur augue, non blandit arcu quam at velit.
+		    <Hype>We offer a variety of stone and tile services including but not limited to the following information cards.
+		    Our trained professionals can waterproof any system including: WEDI, Latricrete, Ardex, and Schluter, and our work
+		    speaks for itself. Click on any of the cards to view some of our work.
 			</Hype>
 			<InfoCardDiv>
 				<Link to="./kitchens">
@@ -49,8 +51,7 @@ const Services = () => {
 				<Link to="./waterproofing">
 					<InfoCardBigText image = "https://thumbs2.imgbox.com/34/30/1hhKgvS1_t.png"
 					header = "Waterproofing"
-					text = 'Our trained professionals can waterproof any system including: WEDI, Latricrete, Ardex, and Schluter.
-					Waterproofing, vapor management, and heavy load distribution enxures the durability and integrity of tile installation.'
+					text = 'Waterproofing, vapor management, and heavy load distribution enxures the durability and integrity of tile installation.'
 					/>
 				</Link>
 			</InfoCardDiv>

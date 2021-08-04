@@ -9,6 +9,10 @@ export const Body = styled.div`
 	box-sizing: border-box;
 	border-radius: 20px;
 	margin-bottom: 5vh;
+	height: 100vh;
+	@media screen and (max-width: 487px){
+		height: auto;
+	}
 	:hover {
 		background: rgba(255, 255, 255, 0.77);
 		border: 5px solid rgba(207, 85, 85);
