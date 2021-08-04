@@ -44,10 +44,11 @@ export default function Home() {
 				<AboutUsHeader className = 'header'>About Us</AboutUsHeader>
 				<ChildContainer>
 					<Paragraph className = 'intro_text'>
-					Lorem ipsum dolor sit amet,
-					consectetur adipiscing elit,
-					sed do eiusmod tempor incididunt ut
-					labore et dolore magna aliqua. Ut
+					At Bedrock Stone and Tile we are all about offering the best services and customer experience.
+					Whether it be a big or small project, your home is your home and whatever rennovation or service you
+					are contemplating will have a big impact on your life. At Bedrock Stone and Tile, we are all about providing
+					you with a great experience. With over 50 years of combined work experience in the greater Boston area and New England,
+					our services are sure to leave you more than satisfied. Like bedrock, we can support anything.
 					</Paragraph>
 					<Carousel/>
 				</ChildContainer>

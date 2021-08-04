@@ -1,14 +1,13 @@
-
 import {Gallery} from './pgComponents/Gallery'
 import React from 'react'
-import "./Restoration.css"
+import "./Galleries.css"
 import Data from './pgComponents/PicsForDemonstration'
 
-export default function Restoration(){
+export default function Fireplaces(){
 
 	return(
 		<body className = "background">
-			<h1 className="header">Restoration Gallery</h1>
+			<h1 className="header">Fireplace Gallery</h1>
 			<Gallery data = {Data}/>
 		</body>
 		)

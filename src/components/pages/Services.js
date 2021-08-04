@@ -17,21 +17,41 @@ const Services = () => {
 		    <Hype>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar, orci id bibendum varius, leo velit efficitur augue, non blandit arcu quam at velit.
 			</Hype>
 			<InfoCardDiv>
-				<Link to="./Installation">
-					<InfoCardBigText image = "https://thumbs2.imgbox.com/67/52/6wNXz3ex_t.png"
-					header = "Installation"/>
+				<Link to="./kitchens">
+					<InfoCard image = "https://thumbs2.imgbox.com/67/52/6wNXz3ex_t.png"
+					header = "Kitchens"
+					text="Updating your kitchen not only improves its functionality--it also increases the value of your home"
+					/>
 				</Link>
-				<Link to="./Regrout">
+				<Link to="./bathrooms">
 					<InfoCard image = "https://thumbs2.imgbox.com/e1/df/ev1w7DwJ_t.png"
-					header = "Regrout"/>
+					header = "Bathrooms"
+					text = "A simple upgrade can increase the value of your home. New construction or remodels, we will fit your needs."
+					/>
 				</Link>
-				<Link to="./Repair">
-					<InfoCard image = "https://thumbs2.imgbox.com/6e/2a/l8BmjnJu_t.png"
-					header = "Repair"/>
+				<Link to="./backsplashes">
+					<InfoCardBigText image = "https://thumbs2.imgbox.com/6e/2a/l8BmjnJu_t.png"
+					header = "Backsplashes"
+					text= 'Updating your backsplash is a simple way to create a great look.'/>
 				</Link>
-				<Link to="./Restoration">
+				<Link to="./fireplaces">
+					<InfoCard image = "https://thumbs2.imgbox.com/34/30/1hhKgvS1_t.png"
+					header = "Fireplaces"
+					text = 'A beautiful new fireplace is the best way to create a cozy atmosphere.'
+					/>
+				</Link>
+				<Link to="./regrouting">
 					<InfoCardBigText image = "https://thumbs2.imgbox.com/34/30/1hhKgvS1_t.png"
-					header = "Restoration"/>
+					header = "Regrouting"
+					text = 'Repairs and resotration adds a sense of beauty to any room.'
+					/>
+				</Link>
+				<Link to="./waterproofing">
+					<InfoCardBigText image = "https://thumbs2.imgbox.com/34/30/1hhKgvS1_t.png"
+					header = "Waterproofing"
+					text = 'Our trained professionals can waterproof any system including: WEDI, Latricrete, Ardex, and Schluter.
+					Waterproofing, vapor management, and heavy load distribution enxures the durability and integrity of tile installation.'
+					/>
 				</Link>
 			</InfoCardDiv>
 		</Body>

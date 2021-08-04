@@ -33,7 +33,7 @@ export const Header = styled.h3`
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 48px;
+	font-size: 46px;
 	text-align: center;
 	line-height: 65px;
 	margin-left: 5px;
@@ -41,10 +41,6 @@ export const Header = styled.h3`
 	margin-top: 0px;
 	color: #000000;
 	border-bottom: 2px solid rgba(207, 85, 85, 0.33);
-	:hover {
-	border: 5px solid rgba(207, 85, 85);
-	transition: all 0.3s ease-out;
-	}
 `
 export const Text = styled.p`
 	font-family: Open Sans;
