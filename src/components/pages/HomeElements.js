@@ -1,12 +1,15 @@
 import styled from 'styled-components'
 import '../../fonts.css'
 
-
-
 export const ImgStyle1 = styled.img`
 	width: 100%;
 `
-
+export const SliderTransition = styled.div`
+	transform: translateX(${props => props.translate}px);
+	transition: transform ease-out ${props => props.transition}s;
+	width: ${props => props.width}px;
+	display: flex;
+  `
 export const Hr = styled.hr`
 border: transparent;
 `
@@ -14,7 +17,9 @@ border: transparent;
 export const HeaderContainer = styled.div`
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	height: auto;
+	flex-direction: row;
+	overflow: hidden;
 `
 export const TextStyle = styled.div`
 	font-family: Open Sans;
@@ -90,7 +95,7 @@ export const Paragraph = styled.p`
 	text-align: center;
 	color: #000000;
 	margin-top: 0px;
-	width: 40%;
+	width: 100%;
 	align-self: stretch;
 
 	@media screen and (max-width: 650px){

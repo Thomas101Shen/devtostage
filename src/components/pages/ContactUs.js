@@ -12,10 +12,13 @@ import {Image,
         SmallInput,
         Submit,
         Container,
+        TextFieldStyled,
       }
 from './ContactUsStyle'
 import {Map} from './pgComponents/Map'
 import ContactInfo from './pgComponents/ContactInfo'
+import TextField from '@material-ui/core/TextField'
+import './ContactUs.css'
 
 const ContactUs = () => {
   const [status, setStatus] = useState("Submit");
@@ -50,6 +53,7 @@ const ContactUs = () => {
     let result = await response.json();
     alert(result.status);
   };
+
   return (
     <Body>
     <Image src='https://lh3.googleusercontent.com/pw/AM-JKLWc16H1F1NhiBziHAQpTwmq_HHI_yHlaUVJghk04W0YmF0exUfywSGenh49xB3l5wpOkIDMFeXnnUilRvw2ZoRHBgqRdN3-EhuMH8jWzyNeE6zT6HLoc60kFJlZmCi1o1j2wppvfzoj5Tf-yK2i97o=w1830-h1106-no' alt='header pic' />
@@ -59,23 +63,21 @@ const ContactUs = () => {
     </Hype>
     <Form onSubmit={handleSubmit}>
         <InputContainer>
+            <TextField varient='outlined' label='first name' type="text" id="firstName" required />
 
-            <Input type="text" id="firstName*" placeholder = 'first name' required />
-
-            <Input type="text" id="lastName*" placeholder = 'last name' defaultrequired />
-
+            <TextField varient='outlined' label='last name' type="text" id="lastName" required />
         </InputContainer>
         <InputContainer>
-        <Input type="email" id="email" placeholder = 'email address*' required />
-       <Input type="tel" id="phone" placeholder = 'Phone number ex: 1-234-567-8901' pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+        <TextField label='email' type="email" id="email" varient='outlined' placeholder='user@example.com' required />
+       <TextField type="tel" label='phone no.' id="phone" placeholder = '123-456-7890' pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" />
         </InputContainer>
-        <AddressInput type="text" placeholder = 'address' id="address"/>
+        <TextField  varient='outlined' label='street address' type="text" placeholder = 'street address' id="address" className='address'/>
       <InputContainer>
-        <SmallInput type="text" id="city" placeholder = 'City'/>
-        <SmallInput type="text" id="state" placeholder = 'State'/>
-        <SmallInput type="text" id="zip" placeholder = 'Zip'/>
+        <TextField varient='outlined' label = 'City' type="text" id="city" placeholder = 'City' className = 'smallInput'/>
+        <TextField varient='outlined' label='State' type="text" id="state" placeholder = 'State' className = 'smallInput'/>
+        <TextField varient='outlined' label='Zip' type="number" id="zip" placeholder = 'Zip' className = 'smallInput'/>
       </InputContainer>
-      <TextAreaInput id="message" placeholder = 'Questions/Comments*' required />
+      <TextField label = 'Message' id="message" placeholder = 'Message' className = 'message' multiline rows={6} required />
       <Submit type="submit">{status}</Submit>
     </Form>
     <Container>

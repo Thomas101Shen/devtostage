@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import TextField from '@material-ui/core/TextField'
 
 export const Image = styled.img`
 position: relative;
@@ -86,6 +87,13 @@ export const InputContainer = styled.div`
     display: flex;
     justify-content: space-around;
     width: 80%
+`
+
+export const TextFieldStyled = styled(TextField)`
+    position: 'relative',
+    border: '1px solid #CF5555',
+    color: '#CF5555',
+    background: '#fff',
 `
 
 export const Input = styled.input`

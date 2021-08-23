@@ -10,20 +10,80 @@ import {
 	Paragraph,
 	AboutUsHeader,
 	TextContainer,
-	ChildContainer,
+	SliderTransition,
 } from './HomeElements'
+import {useState} from 'react'
 import './home.css'
 import Images from './pgComponents/demoPictures'
 import React from 'react'
-import Carousel from './pgComponents/Carousel'
+import Arrow from './pgComponents/Arrow'
 
 export default function Home() {
-	return(
 
+
+	  const images = [
+	  'https://lh3.googleusercontent.com/pw/AM-JKLWygvIMJ8RXyEUVBY1cHBuZNsQltThjOMLBKPz6YX7Rbty8frln9SvZfKbjxYJTJrHeYRDRbgMVpJEQsHJuN4ZFb15ek6IzTHrdXLE-V9-UOlchku1tbiKYY7QMiZv9Nejf08Tw9GBXfisad1eGgoI=w1720-h1106-no',
+	  'https://lh3.googleusercontent.com/pw/AM-JKLWygvIMJ8RXyEUVBY1cHBuZNsQltThjOMLBKPz6YX7Rbty8frln9SvZfKbjxYJTJrHeYRDRbgMVpJEQsHJuN4ZFb15ek6IzTHrdXLE-V9-UOlchku1tbiKYY7QMiZv9Nejf08Tw9GBXfisad1eGgoI=w1720-h1106-no',
+	  'https://lh3.googleusercontent.com/pw/AM-JKLWygvIMJ8RXyEUVBY1cHBuZNsQltThjOMLBKPz6YX7Rbty8frln9SvZfKbjxYJTJrHeYRDRbgMVpJEQsHJuN4ZFb15ek6IzTHrdXLE-V9-UOlchku1tbiKYY7QMiZv9Nejf08Tw9GBXfisad1eGgoI=w1720-h1106-no'
+	  ]
+
+	  const getWidth = () => window.innerWidth
+
+	  const [state, setState] = useState({
+	  	activeIndex: 0,
+	    translate: 0,
+	    transition: 0.45
+	  })
+
+	  const { translate, transition, activeIndex } = state
+	  const nextSlide = () => {
+	    if (activeIndex === 2) {
+	      return setState({
+	        ...state,
+	        translate: 0,
+	        activeIndex: 0
+	      })
+	    }
+
+	    setState({
+	      ...state,
+	      activeIndex: activeIndex + 1,
+	      translate: (activeIndex + 1) * (-getWidth()+15)
+	    })
+	  }
+
+	  const prevSlide = () => {
+	    if (activeIndex === 0) {
+	      return setState({
+	        ...state,
+	        translate: -2 * (getWidth()-15),
+	        activeIndex: 2
+	      })
+	    }
+
+	    setState({
+	      ...state,
+	      activeIndex: activeIndex - 1,
+	      translate: (activeIndex-1)*-(getWidth()-15)
+	    })
+	  }
+	  console.log(getWidth(), activeIndex)
+	  console.log(translate)
+	return(
 		<Body>
 			<HeaderContainer>
-			<ImgStyle1 src = 'https://lh3.googleusercontent.com/pw/AM-JKLWygvIMJ8RXyEUVBY1cHBuZNsQltThjOMLBKPz6YX7Rbty8frln9SvZfKbjxYJTJrHeYRDRbgMVpJEQsHJuN4ZFb15ek6IzTHrdXLE-V9-UOlchku1tbiKYY7QMiZv9Nejf08Tw9GBXfisad1eGgoI=w1720-h1106-no'
-			alt="picture"/>
+				<SliderTransition
+				translate = {translate}
+				transition = {transition}
+				width = {getWidth() * 3}
+				>
+				{images.map((image) => (
+					<ImgStyle1 src = {image}
+					alt="picture"/>
+					))}
+				</SliderTransition>
+				<Arrow direction = 'right' handleClick = {nextSlide}/>
+				<Arrow direction = 'left' handleClick = {prevSlide}/>
 			</HeaderContainer>
 			<Intro>
 				<Scaler>lorem ipsum</Scaler>
@@ -42,16 +102,13 @@ export default function Home() {
 
 			<AboutUsContainer>
 				<AboutUsHeader className = 'header'>About Us</AboutUsHeader>
-				<ChildContainer>
 					<Paragraph className = 'intro_text'>
 					At Bedrock Stone and Tile we are all about offering the best services and customer experience.
 					Whether it be a big or small project, your home is your home and whatever rennovation or service you
-					are contemplating will have a big impact on your life. At Bedrock Stone and Tile, we are all about providing
-					you with a great experience. With over 50 years of combined work experience in the greater Boston area and New England,
+					are contemplating will have a big impact on your life. At Bedrock Stone and Tile, we seek to provide
+					you with a great experience. With over 25 years of work experience in the greater Boston area and New England,
 					our services are sure to leave you more than satisfied. Like bedrock, we can support anything.
 					</Paragraph>
-					<Carousel/>
-				</ChildContainer>
 			</AboutUsContainer>
 		</Body>
 		)
