@@ -69,7 +69,7 @@ export const AboutUsContainer = styled.div`
 `
 
 export const AboutUsHeader = styled.h1`
-	font-family: Oleo Script;
+	font-family: Amaranth;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 72px;

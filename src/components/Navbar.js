@@ -8,6 +8,7 @@ import {
 	NavBtnLink,
 	NavPic,
 	NavLogo,
+	Logo,
 } from './NavbarElements'
 import {Link} from 'react-router-dom'
 import {useState} from 'react'
@@ -31,7 +32,7 @@ function Navbar() {
 	return (
 		<Nav>
 			<NavLogo exact to='/' onClick={closeMobileMenu}>
-			<img id='logo' src = 'https://images2.imgbox.com/bb/b4/YGEObMvm_o.png' alt='logo' />
+			<Logo id='logo' src = 'https://images2.imgbox.com/bb/b4/YGEObMvm_o.png' alt='logo'/>
 			</NavLogo>
 		<div className = 'menu-icon' onClick = {handleClick} >
 			<i className = {click ? 'fas fa-times' : 'fas fa-bars'}/>

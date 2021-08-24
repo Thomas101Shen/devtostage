@@ -21,6 +21,12 @@ export const NavLogo = styled(Link)`
 	cursor: pointer;
 	text-decoration: none;
 	font-size: 2rem;
+	height: 100%;
+	width: auto;
+	`
+
+export const Logo = styled.img`
+	object-fit: cover;
 `
 
 export const NavLink = styled(Link)`
@@ -34,7 +40,7 @@ export const NavLink = styled(Link)`
 	cursor: pointer;
 	background-color: transparent;
 	transition: background-color 2s;
-	font-family: Oleo Script, cursive;
+	font-family: 'Amaranth', sans-serif;
 	font-size: 24px;
 
 	:hover {

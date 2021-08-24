@@ -63,13 +63,13 @@ const ContactUs = () => {
     </Hype>
     <Form onSubmit={handleSubmit}>
         <InputContainer>
-            <TextField varient='outlined' label='first name' type="text" id="firstName" required />
+            <TextField varient='outlined' label='first name' type="text" id="firstName" className = 'regInput' required />
 
-            <TextField varient='outlined' label='last name' type="text" id="lastName" required />
+            <TextField varient='outlined' label='last name' type="text" id="lastName" className = 'regInput' required />
         </InputContainer>
         <InputContainer>
-        <TextField label='email' type="email" id="email" varient='outlined' placeholder='user@example.com' required />
-       <TextField type="tel" label='phone no.' id="phone" placeholder = '123-456-7890' pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+        <TextField label='email' type="email" id="email" varient='outlined' placeholder='user@example.com' className = 'regInput' required />
+       <TextField type="tel" label='phone no.' id="phone" placeholder = '123-456-7890' pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" className = 'regInput' />
         </InputContainer>
         <TextField  varient='outlined' label='street address' type="text" placeholder = 'street address' id="address" className='address'/>
       <InputContainer>
