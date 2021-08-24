@@ -18,6 +18,8 @@ import Images from './pgComponents/demoPictures'
 import React from 'react'
 import Arrow from './pgComponents/Arrow'
 
+import {isBrowser} from 'react-device-detect'
+
 export default function Home() {
 
 
@@ -48,7 +50,7 @@ export default function Home() {
 	    setState({
 	      ...state,
 	      activeIndex: activeIndex + 1,
-	      translate: (activeIndex + 1) * (-getWidth()+15)
+		  translate: ( isBrowser ? ((activeIndex + 1) * (-getWidth()+15)) : (activeIndex+1) * -getWidth())
 	    })
 	  }
 
@@ -64,10 +66,12 @@ export default function Home() {
 	    setState({
 	      ...state,
 	      activeIndex: activeIndex - 1,
-	      translate: (activeIndex-1)*-(getWidth()-15)
+	      translate: (isBrowser ? (activeIndex-1)*(-getWidth()+15) : (activeIndex-1) * (-getWidth()) )
 	    })
 	  }
+
 	  console.log(getWidth(), activeIndex)
+	  console.log(isBrowser)
 	  console.log(translate)
 	return(
 		<Body>
@@ -75,7 +79,7 @@ export default function Home() {
 				<SliderTransition
 				translate = {translate}
 				transition = {transition}
-				width = {getWidth() * 3}
+				width = {getWidth() * images.length}
 				>
 				{images.map((image) => (
 					<ImgStyle1 src = {image}
@@ -102,7 +106,7 @@ export default function Home() {
 
 			<AboutUsContainer>
 				<AboutUsHeader className = 'header'>About Us</AboutUsHeader>
-					<Paragraph className = 'intro_text'>
+					<Paragraph>
 					At Bedrock Stone and Tile we are all about offering the best services and customer experience.
 					Whether it be a big or small project, your home is your home and whatever rennovation or service you
 					are contemplating will have a big impact on your life. At Bedrock Stone and Tile, we seek to provide

@@ -22,7 +22,7 @@ const Services = () => {
 				<Link to="./kitchens">
 					<InfoCard image = "https://thumbs2.imgbox.com/67/52/6wNXz3ex_t.png"
 					header = "Kitchens"
-					text="Updating your kitchen not only improves its functionality--it also increases the value of your home"
+					text="Updating your kitchen not only improves its functionality—it also increases the value of your home"
 					/>
 				</Link>
 				<Link to="./bathrooms">

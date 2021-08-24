@@ -73,16 +73,14 @@ export const AboutUsHeader = styled.h1`
 	font-style: normal;
 	font-weight: normal;
 	font-size: 72px;
+	text-decoration: underline;
 	line-height: 100px;
 	color: #000000;
 	text-align: center;
 	vertical-align: text-top;
-	// margin: auto;
 	margin-top: 0px;
-	margin-bottom: 10px;
 	@media screen and (max-width: 307px){
 		font-size: 36px;
-		margin-bottom: 0px;
 	}
 	`
 
@@ -94,9 +92,10 @@ export const Paragraph = styled.p`
 	line-height: 65px;
 	text-align: center;
 	color: #000000;
-	margin-top: 0px;
 	width: 100%;
 	align-self: stretch;
+	padding: 20px;
+	margin: auto;
 
 	@media screen and (max-width: 650px){
 		font-size: 25px;
