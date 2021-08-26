@@ -24,9 +24,9 @@ export default function Home() {
 
 
 	  const images = [
-	  'https://lh3.googleusercontent.com/pw/AM-JKLWygvIMJ8RXyEUVBY1cHBuZNsQltThjOMLBKPz6YX7Rbty8frln9SvZfKbjxYJTJrHeYRDRbgMVpJEQsHJuN4ZFb15ek6IzTHrdXLE-V9-UOlchku1tbiKYY7QMiZv9Nejf08Tw9GBXfisad1eGgoI=w1720-h1106-no',
-	  'https://lh3.googleusercontent.com/pw/AM-JKLWygvIMJ8RXyEUVBY1cHBuZNsQltThjOMLBKPz6YX7Rbty8frln9SvZfKbjxYJTJrHeYRDRbgMVpJEQsHJuN4ZFb15ek6IzTHrdXLE-V9-UOlchku1tbiKYY7QMiZv9Nejf08Tw9GBXfisad1eGgoI=w1720-h1106-no',
-	  'https://lh3.googleusercontent.com/pw/AM-JKLWygvIMJ8RXyEUVBY1cHBuZNsQltThjOMLBKPz6YX7Rbty8frln9SvZfKbjxYJTJrHeYRDRbgMVpJEQsHJuN4ZFb15ek6IzTHrdXLE-V9-UOlchku1tbiKYY7QMiZv9Nejf08Tw9GBXfisad1eGgoI=w1720-h1106-no'
+	  'https://lh3.googleusercontent.com/pw/AM-JKLUmEX_XYbL2QYJ0kMfGzWX86HwWgZ4FpPmE0qwqXJt__yBaUE-I4Fj2NaUnITc_SDg-nUAJbtYpfQJ7OqSWT1fzZzGHSiMx72z3T1FvIgWsxxK3EGLuIWPvDWMdkNSV-qoBxFFl9RguqlZ1YJyjA7Gw=w1600-h1029-no',
+	  'https://lh3.googleusercontent.com/pw/AM-JKLULx1NQ-5hHBtkzRioHJPNETRwnz_RajKluo5uicy_oIms0QnBFgnzaODDJSMLPzt5HeJq7ktUy1uPn8pk4jPqL_6k8rfYhHfrU4OVixsdKlNmegLdT6YMrpLZVIiLpfaLUBhmZ2mQIEoObT46dJBLt=w1603-h1029-no',
+	  'https://lh3.googleusercontent.com/pw/AM-JKLVl_kb8A_GBqZ0uXFLx77dpmKbQ6Q6LEi9qNBt9173UikqAw0tpFVd5Jjjw1lkMWD6_b2CHK4Ga63l09XJPcduiVd5I_ZZW-KKUUUpgqujjAHqlVOK4ppNqxgs_f5beceNWiB7riN_VRAfCXI3g4DwN=w1600-h1029-no'
 	  ]
 
 	  const getWidth = () => window.innerWidth
@@ -54,7 +54,7 @@ export default function Home() {
 	    })
 	  }
 
-	  const prevSlide = () => {
+	  const prevSlide = () => { 
 	    if (activeIndex === 0) {
 	      return setState({
 	        ...state,
@@ -93,15 +93,18 @@ export default function Home() {
 				<Scaler>lorem ipsum</Scaler>
 				<div>
 					<ImgStyle src="https://images2.imgbox.com/c7/d3/b39M9tOO_o.png" alt="Quality service pic"/>
-					<TextStyle id = 'text'>
-				Quality <br /> Services...</TextStyle>
 				</div>
 				<div>
 					<ImgStyle src ="https://images2.imgbox.com/b0/05/DIQ2dlCV_o.png" alt="customer experience pic"/>
+				</div>
+			</Intro>
+			<Intro>
+
+					<TextStyle id = 'text'>
+				Quality <br /> Services...</TextStyle>
 					<TextStyle id = 'text'>
 					...And great <br/> Customer <br/> Experience
 					</TextStyle>
-				</div>
 			</Intro>
 
 			<AboutUsContainer>

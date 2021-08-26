@@ -40,6 +40,7 @@ line-height: 65px;
 text-align: center;
 color: #000000;
 margin: auto;
+padding: auto;
 @media screen and (max-width: 650px){
 		font-size: 25px;
 	}

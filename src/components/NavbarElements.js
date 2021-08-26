@@ -5,7 +5,7 @@ import '../fonts.css'
 
 export const Nav = styled.nav`
 	background: #5D3033;
-	height: 80px;
+	height: 140px;
 	display: flex;
 	z-index: 10; //or 999
 	align-items: center;
@@ -23,10 +23,12 @@ export const NavLogo = styled(Link)`
 	font-size: 2rem;
 	height: 100%;
 	width: auto;
+	align-self: flex-start;
 	`
 
 export const Logo = styled.img`
 	object-fit: cover;
+	height: 132px;
 `
 
 export const NavLink = styled(Link)`
@@ -41,7 +43,7 @@ export const NavLink = styled(Link)`
 	background-color: transparent;
 	transition: background-color 2s;
 	font-family: 'Amaranth', sans-serif;
-	font-size: 24px;
+	font-size: 36px;
 
 	:hover {
 		background-color: #CF5555;
@@ -57,7 +59,7 @@ export const NavLink = styled(Link)`
 	}
 	&.active{
 	background: #CF5555;
-	font-size: 36px;
+	font-size: 48px;
 	padding: 8px 20px;
 	border-radius: 12px;
 	outline: none;
@@ -71,7 +73,7 @@ export const NavPic = styled.img`
 height: 36px;
 margin: auto;
 
-	@media screen and (max-width: 800px){
+	@media screen and (max-width: 906px){
 		display: none;
 	}
 `

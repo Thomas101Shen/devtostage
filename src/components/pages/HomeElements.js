@@ -47,8 +47,7 @@ export const Intro = styled.div`
 	justify-content: space-around;
 	background: transparent;
 	width: 100%;
-	margin: 0px;
-	height: 80vh
+	margin: 20px;
 `
 export const Body = styled.body`
 	background: #FFC2A8;
