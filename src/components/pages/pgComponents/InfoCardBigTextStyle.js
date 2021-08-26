@@ -5,7 +5,7 @@ export const Body = styled.div`
 	display: inline-block;
 	width: 40vh;
 	background: rgba(255, 255, 255, 0.38);
-	border: 5px solid rgba(207, 85, 85, 0.33);
+	border: 3px solid #51537254;
 	box-sizing: border-box;
 	border-radius: 20px;
 	margin-bottom: 5vh;
@@ -15,7 +15,6 @@ export const Body = styled.div`
 	}
 	:hover {
 		background: rgba(255, 255, 255, 0.77);
-		border: 5px solid rgba(207, 85, 85);
 		cursor: pointer;
   		transition: all 0.3s ease-out;
 	}
@@ -26,11 +25,6 @@ export const Image = styled.img`
 	margin: 2vh;
 	margin-bottom: 0px;
 	object-fit: cover;
-	border: 5px solid rgba(207, 85, 85, 0.33);
-	:hover {
-	border: 5px solid rgba(207, 85, 85);
-	transition: all 0.3s ease-out;
-	}
 `
 
 export const Header = styled.h3`
@@ -44,7 +38,7 @@ export const Header = styled.h3`
 	margin-right: 5px;
 	margin-top: 0px;
 	color: #000000;
-	border-bottom: 2px solid rgba(207, 85, 85, 0.33);
+	border-bottom: 2px solid #51537254;
 `
 export const Text = styled.p`
 	font-family: Open Sans;

@@ -10,8 +10,7 @@ align-items: center;
 width: 100%;
 height: 581px;
 left: 0px;
-background: rgba(177, 105, 105, 0.55);
-text-align: center;
+background: #8D98BF75;
 `
 
 export const Header = styled.h1`
@@ -57,7 +56,7 @@ export const Body = styled.div`
 display: flex;
 flex-direction: column;
 position: relative;
-background: #FFC2A8;
+background: #E5E5E5;
 `
 
 export const InfoCardDiv = styled.div`

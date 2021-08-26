@@ -6,7 +6,7 @@ export const Footer = styled.footer`
 	justify-content: center;
 	flex-direction: column;
 	height: 100%;
-	background: #5D3033;
+	background: #3A3C53;
 `
 
 export const FooterTextTop = styled.div`

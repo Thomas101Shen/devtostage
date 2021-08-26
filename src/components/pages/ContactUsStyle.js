@@ -14,7 +14,7 @@ align-items: center;
 width: 100%;
 height: 581px;
 left: 0px;
-background: rgba(177, 105, 105, 0.55);
+background: #8D98BF75;
 text-align: center;
 `
 
@@ -78,6 +78,8 @@ left: -1px;
 background: rgba(255, 255, 255, 0.38);
 border-radius: 180px 180px;
 height: 124vh;
+width: 80%;
+margin: auto;
 @media screen and (max-width: 290px){
     border-radius: 90px 90px;
 }
@@ -208,7 +210,7 @@ export const TextAreaInput = styled.textarea`
 `
 
 export const Submit = styled.button`
-background: #CF5555;
+background: #515372;
 border-radius: 40px;
 
 font-family: Open Sans;
@@ -224,7 +226,7 @@ export const Body = styled.div`
 display: flex;
 flex-direction: column;
 position: relative;
-background: #FFC2A8;
+background: #E5E5E5;;
 `
 
 export const Container = styled.div`

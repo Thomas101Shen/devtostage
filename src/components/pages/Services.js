@@ -1,5 +1,4 @@
 import React from 'react'
-import Items from './pgComponents/demoPictures'
 import {Image,
 		Hype,
 		Body,
@@ -20,7 +19,7 @@ const Services = () => {
 			</Hype>
 			<InfoCardDiv>
 				<Link to="./kitchens">
-					<InfoCard image = "https://thumbs2.imgbox.com/67/52/6wNXz3ex_t.png"
+					<InfoCard image = "https://lh3.googleusercontent.com/pw/AM-JKLXk9InDuKbtBBJalXH7gD5gm_wyn73Dag4S0fs07SIODjAyKrIJTAOFpwnuQONzsUf7-7ikIqzyCY5Pd1PUYHuPr_JhGjKNtbxB5K8Lve1F-pJpFmKxwWmdAY-e4TRueVoatQYL6A1jB4Esh8FaxOQ=w1034-h1378-no"
 					header = "Kitchens"
 					text="Updating your kitchen not only improves its functionality—it also increases the value of your home"
 					/>

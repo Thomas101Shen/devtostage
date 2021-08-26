@@ -4,8 +4,8 @@ import {FaBars} from 'react-icons/fa'
 import '../fonts.css'
 
 export const Nav = styled.nav`
-	background: #5D3033;
-	height: 140px;
+	background: #3A3C53;
+	height: 129px;
 	display: flex;
 	z-index: 10; //or 999
 	align-items: center;
@@ -28,7 +28,7 @@ export const NavLogo = styled(Link)`
 
 export const Logo = styled.img`
 	object-fit: cover;
-	height: 132px;
+	height: 120px;
 `
 
 export const NavLink = styled(Link)`
@@ -43,25 +43,21 @@ export const NavLink = styled(Link)`
 	background-color: transparent;
 	transition: background-color 2s;
 	font-family: 'Amaranth', sans-serif;
-	font-size: 36px;
+	font-size: 48px;
 
 	:hover {
-		background-color: #CF5555;
-		border: 2px solid  #CF5555;
-		border-radius: 4px;
+		background-color: #515372;
+		border: 2px solid  #515372;
 		padding: 8px 20px;
-		border-radius: 12px;
-		font-size: 36px;
 		color: #fff;
 		cursor: pointer;
 		height: 60px;
   		transition: all 0.3s ease-out;
 	}
 	&.active{
-	background: #CF5555;
+	background: #515372;
 	font-size: 48px;
 	padding: 8px 20px;
-	border-radius: 12px;
 	outline: none;
 	border: none;
 	color: #fff;

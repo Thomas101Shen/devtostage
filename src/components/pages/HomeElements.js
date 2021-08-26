@@ -50,7 +50,7 @@ export const Intro = styled.div`
 	margin: 20px;
 `
 export const Body = styled.body`
-	background: #FFC2A8;
+	background: #E5E5E5;
 
 `
 export const ImgStyle = styled.img`
@@ -62,7 +62,7 @@ export const AboutUsContainer = styled.div`
     align-content: space-around;
     // align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.38);
+    background: #FFFFFF;
     height: auto;
     flex-direction: column;
 `
@@ -113,7 +113,7 @@ export const ChildContainer = styled.div`
 	justify-content: space-around;
 	align-content: center;
 	align-items: center;
-	
+
 	@media screen and (max-width: 420px){
 		flex-direction: column;
 	}

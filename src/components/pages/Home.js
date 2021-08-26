@@ -14,7 +14,6 @@ import {
 } from './HomeElements'
 import {useState} from 'react'
 import './home.css'
-import Images from './pgComponents/demoPictures'
 import React from 'react'
 import Arrow from './pgComponents/Arrow'
 
@@ -54,7 +53,7 @@ export default function Home() {
 	    })
 	  }
 
-	  const prevSlide = () => { 
+	  const prevSlide = () => {
 	    if (activeIndex === 0) {
 	      return setState({
 	        ...state,
@@ -79,7 +78,7 @@ export default function Home() {
 				<SliderTransition
 				translate = {translate}
 				transition = {transition}
-				width = {getWidth() * images.length}
+				width = { isBrowser ? (getWidth()-15) * images.length : getWidth() * images.length}
 				>
 				{images.map((image) => (
 					<ImgStyle1 src = {image}
