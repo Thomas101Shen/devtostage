@@ -3,7 +3,7 @@
   "name": "bedrosian_st_1",
   "version": "0.1.0",
   "engines": {
-    "node": "16.3.0"
+    "node": "21.2.0"
   },
   "private": true,
   "dependencies": {
