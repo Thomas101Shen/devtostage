@@ -109,11 +109,13 @@ export default function Home() {
 			<AboutUsContainer>
 				<AboutUsHeader className = 'header'>About Us</AboutUsHeader>
 					<Paragraph>
-					At Bedrock Stone and Tile we are all about offering the best services and customer experience.
-					Whether it be a big or small project, your home is your home and whatever rennovation or service you
-					are contemplating will have a big impact on your life. At Bedrock Stone and Tile, we seek to provide
-					you with a great experience. With over 25 years of work experience in the greater Boston area and New England,
-					our services are sure to leave you more than satisfied. Like bedrock, we can support anything.
+					This was originally a website I was making for a friend, however, things did
+					not go as originally planned and I never finished it. I am now using it as a
+					display of my skills in learning new frameworks and technical versatility.
+					Reach out to me at tshen595@gmail.com if interested. Hopefully you enjoy your
+					experience here! Some of the features and pictures are not working because
+					certain libraries are outdated (e.g flask_mail for the contact form). This
+					website is from 2021.
 					</Paragraph>
 			</AboutUsContainer>
 		</Body>
