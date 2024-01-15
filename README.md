@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# Introduction to my project:
+
+You will need to use a version of node between 10-16 in order to run the application. Because the version
+is older I was having trouble hosting it on github pages, which is why I abandoned that idea.
+This was a personal project that I abandoned a while ago to focus on work and school.
+I added some extra commands to the package.json in order to run it properly. Some functionalities
+such as the contact us form and the arrows are not working because the libraries I used are now outdated.
+
+If running linux, go to package.json and change
+`export NODE_OPTIONS=--openssl-legacy-provider` to `set NODE_OPTIONS=--openssl-legacy-provider`
+You will need to set the environment variable `NODE_OPTIONS `to `--openssl-legacy-provider`.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 

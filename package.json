@@ -1,9 +1,8 @@
 {
-  "homepage": "http://thomas101shen.github.io/devtostage",
   "name": "bedrosian_st_1",
   "version": "0.1.0",
   "engines": {
-    "node": "21.2.0"
+    "node": "16.3.0"
   },
   "private": true,
   "dependencies": {
@@ -26,7 +25,7 @@
     "yarn": "^1.22.10"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "predeploy": "export NODE_OPTIONS=--openssl-legacy-provider && npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
