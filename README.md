@@ -6,9 +6,11 @@ This was a personal project that I abandoned a while ago to focus on work and sc
 I added some extra commands to the package.json in order to run it properly. Some functionalities
 such as the contact us form and the arrows are not working because the libraries I used are now outdated.
 
-If running linux, go to package.json and change
+If running linux, go to package.json and change on the npm start line
 `export NODE_OPTIONS=--openssl-legacy-provider` to `set NODE_OPTIONS=--openssl-legacy-provider`
 You will need to set the environment variable `NODE_OPTIONS `to `--openssl-legacy-provider`.
+
+Use `npm start` to start the application on localhost
 
 
 ## Getting Started with Create React App
