@@ -1,10 +1,12 @@
 # Introduction to my project:
 
 You will need to use a version of node between 10-16 in order to run the application. Because the version
-is older I was having trouble hosting it on github pages, which is why I abandoned that idea.
+is older I was having trouble hosting it on github pages. Therefore, this application is not hosted online.
 This was a personal project that I abandoned a while ago to focus on work and school.
 I added some extra commands to the package.json in order to run it properly. Some functionalities
 such as the contact us form and the arrows are not working because the libraries I used are now outdated.
+
+You need to be running a version of npm between 10.x-16.x in order to see the website.
 
 If running linux, go to package.json and change on the npm start line
 `export NODE_OPTIONS=--openssl-legacy-provider` to `set NODE_OPTIONS=--openssl-legacy-provider`
